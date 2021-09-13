@@ -24,4 +24,10 @@ public class Productos extends AppCompatActivity {
         Intent intent = new Intent(this, ConsultarProducto.class);
         startActivity(intent);
     }
+
+    public  void Consultar(View view){
+        Intent intent = new Intent(this, ModificarProductos.class);
+        startActivity(intent);
+
+    }
 }

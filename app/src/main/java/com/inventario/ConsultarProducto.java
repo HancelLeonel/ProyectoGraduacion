@@ -37,8 +37,8 @@ public class ConsultarProducto extends AppCompatActivity {
                     "from productos where codigo =" + codigo, null);
             if (fila.moveToFirst()){
                 tv_nombre.setText(fila.getString(0));
-                tv_precio.setText(fila.getString(1));
-                tv_descripcion.setText(fila.getString(2));
+                tv_precio.setText(fila.getString(2));
+                tv_descripcion.setText(fila.getString(1));
                 BaseDeDatabase.close();
             }else{
                 Toast.makeText(this, "No existe el producto", Toast.LENGTH_SHORT).show();

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".ClientesInsertar"
+            android:exported="true" />
+        <activity
             android:name=".ModificarProductos"
             android:exported="true" />
         <activity

@@ -75,7 +75,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/style_border_button_productos"
         android:onClick="Eliminar"
-        android:text="Eliminar"
+        android:text="@string/button_eliminar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/insertar" />
 

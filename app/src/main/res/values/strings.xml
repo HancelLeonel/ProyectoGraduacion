@@ -16,5 +16,8 @@
     <string name="txt_nombre">Nombre</string>
     <string name="txt_descripcion">Descripción</string>
     <string name="txt_precio">Precio</string>
+    <string name="txt_direccion">Dirección</string>
+    <string name="txt_telefono">Teléfono</string>
+    <string name="button_eliminar">Eliminar</string>
 
 </resources>

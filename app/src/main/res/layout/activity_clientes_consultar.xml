@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".ClientesInsertar">
+    tools:context=".Clientes_Consultar"
+    android:background="@color/background">
+
+
     <EditText
-        android:id="@+id/et_codigo"
+        android:id="@+id/codigo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="108dp"
         android:ems="10"
         android:hint="@string/txt_codigo"
         android:inputType="number"
@@ -19,55 +21,61 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/et_nombre"
+    <TextView
+        android:id="@+id/tv_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="@string/txt_nombre"
-        android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_codigo" />
+        app:layout_constraintTop_toBottomOf="@+id/codigo" />
 
-    <EditText
-        android:id="@+id/et_descripcion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="28dp"
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_width="206dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="@string/txt_direccion"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_nombre" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombre" />
 
-    <EditText
-        android:id="@+id/et_precio"
+    <TextView
+        android:id="@+id/tv_precio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="@string/txt_telefono"
-        android:inputType="numberDecimal"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_descripcion" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_descripcion" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/insertar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/button_Insertar"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/style_border_button_clientes"
+        android:text="@string/button_Consultar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_precio" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_precio" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/style_border_button_clientes"
+        android:text="@string/button_eliminar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

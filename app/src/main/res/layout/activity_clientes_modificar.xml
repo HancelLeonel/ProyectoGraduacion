@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".ClientesInsertar">
+    tools:context=".Clientes_Modificar">
+
+
     <EditText
         android:id="@+id/et_codigo"
         android:layout_width="wrap_content"
@@ -64,10 +66,19 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
         android:layout_marginTop="40dp"
-        android:text="@string/button_Insertar"
+        android:text="@string/button_Consultar"
         android:background="@drawable/style_border_button_clientes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_precio" />
 
-
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/button_Modificar"
+        android:background="@drawable/style_border_button_clientes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

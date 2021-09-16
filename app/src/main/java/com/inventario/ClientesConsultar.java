@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Clientes_Consultar extends AppCompatActivity {
+public class ClientesConsultar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,20 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".Clientes_Modificar">
-
+    tools:context=".ClientesModificar"
+    android:background="@color/background">
 
     <EditText
         android:id="@+id/et_codigo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="136dp"
+        android:layout_width="210dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="96dp"
         android:ems="10"
+        android:inputType="textPersonName"
         android:hint="@string/txt_codigo"
-        android:inputType="number"
-        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,60 +23,60 @@
         android:id="@+id/et_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="44dp"
         android:ems="10"
-        android:hint="@string/txt_nombre"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:hint="@string/txt_nombre"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_codigo" />
 
     <EditText
-        android:id="@+id/et_descripcion"
+        android:id="@+id/et_direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="@string/txt_direccion"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:hint="Direccion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_nombre" />
 
     <EditText
-        android:id="@+id/et_precio"
+        android:id="@+id/et_telefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="28dp"
-        android:ems="10"
-        android:hint="@string/txt_telefono"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_descripcion" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="40dp"
-        android:text="@string/button_Consultar"
-        android:background="@drawable/style_border_button_clientes"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:hint="@string/txt_telefono"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_precio" />
+        app:layout_constraintTop_toBottomOf="@+id/et_direccion" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/button_Modificar"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/style_border_button_clientes"
+        android:text="@string/button_Consultar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_telefono" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/style_border_button_clientes"
+        android:text="@string/button_Modificar"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/et_telefono" />
 </androidx.constraintlayout.widget.ConstraintLayout>

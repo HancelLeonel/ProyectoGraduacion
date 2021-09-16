@@ -23,6 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/style_border_button_clientes"
+            android:onClick="consultar"
             android:text="@string/button_Consultar" />
 
         <View
@@ -36,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/style_border_button_clientes"
+            android:onClick="insertar"
             android:text="@string/button_Insertar" />
 
         <View
@@ -49,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/style_border_button_clientes"
+            android:onClick="modificar"
             android:text="@string/button_Modificar" />
 
     </LinearLayout>

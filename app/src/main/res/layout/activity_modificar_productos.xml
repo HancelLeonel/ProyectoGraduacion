@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_codigo" />
 
     <EditText
-        android:id="@+id/et_descripcion"
+        android:id="@+id/et_direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_nombre" />
 
     <EditText
-        android:id="@+id/et_precio"
+        android:id="@+id/et_telefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
@@ -53,7 +53,7 @@
         android:inputType="numberDecimal"
         android:hint="@string/txt_precio"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_descripcion" />
+        app:layout_constraintTop_toBottomOf="@+id/et_direccion" />
 
     <Button
         android:id="@+id/button3"
@@ -65,7 +65,7 @@
         android:text="@string/button_Consultar"
         android:background="@drawable/style_border_button_productos"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_precio" />
+        app:layout_constraintTop_toBottomOf="@+id/et_telefono" />
 
     <Button
         android:id="@+id/button5"

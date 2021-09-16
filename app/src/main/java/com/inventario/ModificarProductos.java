@@ -24,8 +24,8 @@ public class ModificarProductos extends AppCompatActivity {
 
         Codigo = findViewById(R.id.et_codigo);
         nombre = findViewById(R.id.et_nombre);
-        descripcion = findViewById(R.id.et_descripcion);
-        precio = findViewById(R.id.et_precio);
+        descripcion = findViewById(R.id.et_direccion);
+        precio = findViewById(R.id.et_telefono);
     }
 
     public void buscar(View view){

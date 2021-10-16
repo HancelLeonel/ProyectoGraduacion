@@ -8,7 +8,7 @@
     android:background="@color/background">
 
     <EditText
-        android:id="@+id/et_codigo"
+        android:id="@+id/et_codigo_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
@@ -29,7 +29,7 @@
         android:inputType="textPersonName"
         android:hint="@string/txt_nombre"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_codigo" />
+        app:layout_constraintTop_toBottomOf="@+id/et_codigo_c" />
 
     <EditText
         android:id="@+id/et_direccion"

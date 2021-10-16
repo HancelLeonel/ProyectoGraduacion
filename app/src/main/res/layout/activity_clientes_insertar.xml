@@ -7,7 +7,7 @@
     android:background="@color/background"
     tools:context=".ClientesInsertar">
     <EditText
-        android:id="@+id/et_codigo"
+        android:id="@+id/et_codigo_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
@@ -30,7 +30,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_codigo" />
+        app:layout_constraintTop_toBottomOf="@+id/et_codigo_c" />
 
     <EditText
         android:id="@+id/et_direccion"
@@ -65,7 +65,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/style_border_button_clientes"
-        android:onClick="Agregar"
+        android:onClick="Insertar"
         android:text="@string/button_Insertar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_telefono" />

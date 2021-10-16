@@ -22,7 +22,7 @@ public class ModificarProductos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_modificar_productos);
 
-        Codigo = findViewById(R.id.et_codigo);
+        Codigo = findViewById(R.id.et_codigo_c);
         nombre = findViewById(R.id.et_nombre);
         descripcion = findViewById(R.id.et_direccion);
         precio = findViewById(R.id.et_telefono);
